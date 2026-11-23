@@ -24,7 +24,7 @@ If your catalogue is written after the code, it will always trail the code. A sp
 > - In D8A every Data Object has a living Specification in your Git repo, and code is generated from it. The catalogue is a view on those specs.
 > - Lineage, column descriptions and change impact come from the same source, so they move with every commit.
 
-<!-- IMAGE PROMPT: Abstract hero for a blog about replacing data catalogue projects. Light canvas #F7F7F7 with soft blurred ambient orbs in sky, teal and yellow. Right side: a white app window with three chrome dots (red, yellow, sky) and mono URL "app.d8a.pro / data", inside a dark ink header bar above three white catalogue cards with grey placeholder lines. One hard-stop color frame (red, yellow, sky-deep) around the window. Left: small eyebrow "D8A blog · 08" and the words "A catalogue that stays current" in Geist Bold ink. Large faint infinity stroke watermark. No people, no stock photography, no purple. -->
+<!-- IMAGE PROMPT: Abstract hero for a blog about replacing data catalogue projects. Light canvas #F7F7F7 with soft blurred ambient orbs in sky, teal and yellow. Right side: a white app window with three chrome dots (red, yellow, sky) and mono URL "app.d8a.pro / data", inside a dark ink header bar above three white catalogue cards with grey placeholder lines. One hard-stop color frame (red, yellow, sky-deep) around the window. Left: small eyebrow "D8A articles · 08" and the words "A catalogue that stays current" in Geist Bold ink. Large faint infinity stroke watermark. No people, no stock photography, no purple. -->
 ![Data catalogue alternative: a D8A catalogue view generated from living specifications](../images/data-catalogue-alternative/hero.png)
 *The catalogue as a view on your specs.*
 

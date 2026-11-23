@@ -24,7 +24,7 @@ To align data strategy with business strategy, every use case needs a visible li
 > - D8A links Strategy Pillars, scored Use Cases and the Work Items that deliver them in one workspace.
 > - Because specs and code sit at the end of the same chain, you can trace delivered pipelines back to the strategy they serve.
 
-<!-- IMAGE PROMPT: Abstract hero for a blog about aligning data strategy with business strategy. Light canvas #F7F7F7 with blurred ambient orbs. Right side: white app window with chrome dots (red, yellow, sky), mono URL "app.d8a.pro / strategy → use cases", inside four nodes in a row linked by body blue arrows, the last node dark ink, suggesting a lineage from strategy to delivery. One hard-stop frame (red, sky-deep, yellow). Left: eyebrow "D8A blog · 10" and the words "Strategy, grounded" in Geist Bold ink. Faint infinity watermark. No people, no purple. -->
+<!-- IMAGE PROMPT: Abstract hero for a blog about aligning data strategy with business strategy. Light canvas #F7F7F7 with blurred ambient orbs. Right side: white app window with chrome dots (red, yellow, sky), mono URL "app.d8a.pro / strategy → use cases", inside four nodes in a row linked by body blue arrows, the last node dark ink, suggesting a lineage from strategy to delivery. One hard-stop frame (red, sky-deep, yellow). Left: eyebrow "D8A articles · 10" and the words "Strategy, grounded" in Geist Bold ink. Faint infinity watermark. No people, no purple. -->
 ![Align data strategy with business strategy: lineage from strategy to delivered use cases in D8A](../images/strategy-grounded-in-data/hero.png)
 *From business strategy to delivered pipelines, in one chain.*
 

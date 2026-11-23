@@ -24,7 +24,7 @@ Spec-driven data engineering moves that knowledge into a specification that peop
 > - Code is generated from the spec and validated against it. When the two drift, you see it.
 > - The spec becomes the place where business and engineering meet, and the basis for documentation, catalogue and lineage.
 
-<!-- IMAGE PROMPT: Abstract hero for "Specs are the new code". Light canvas #F7F7F7 with soft blurred orbs in sky, teal, yellow and faint red. Stroke-only infinity watermark at 8% ink. Right: white window with chrome dots and mono URL "app.d8a.pro / spec → code", containing an abstract flow: white card, ink card, white card with arrows, above a grey tray with placeholder lines like a document. Hard-stop color frame red, yellow, sky-deep at 205 degrees. Mono eyebrow "D8A blog · 02", Geist bold headline "Specs are the new code". No people, no purple. 1600x900. -->
+<!-- IMAGE PROMPT: Abstract hero for "Specs are the new code". Light canvas #F7F7F7 with soft blurred orbs in sky, teal, yellow and faint red. Stroke-only infinity watermark at 8% ink. Right: white window with chrome dots and mono URL "app.d8a.pro / spec → code", containing an abstract flow: white card, ink card, white card with arrows, above a grey tray with placeholder lines like a document. Hard-stop color frame red, yellow, sky-deep at 205 degrees. Mono eyebrow "D8A articles · 02", Geist bold headline "Specs are the new code". No people, no purple. 1600x900. -->
 ![Abstract hero for spec-driven data engineering: a specification flowing into generated code](../images/specs-are-the-new-code/hero.png)
 *The durable asset is the specification. Code follows.*
 

@@ -24,7 +24,7 @@ A workable data mesh implementation gives domains freedom to build while the arc
 > - In D8A the central team defines the architecture once in a Blueprint, with the instructions the AI follows, and hands domains their own workspace built on it.
 > - Domains build their own specs and data products. Generated code follows the central playbook, so successful products are easier to bring back into the core platform.
 
-<!-- IMAGE PROMPT: Abstract hero for a blog about data mesh. Light canvas #F7F7F7 with blurred orbs in sky, teal and yellow. Right side: white app window with chrome dots (red, yellow, sky), mono URL "app.d8a.pro / architecture", inside a dark ink central node connected with dashed body blue lines to six white domain nodes around it. One hard-stop frame (sky-deep to yellow). Left: eyebrow "D8A blog · 11" and the words "Data Mesh without the mess" in Geist Bold ink. Faint infinity watermark. No people, no purple. -->
+<!-- IMAGE PROMPT: Abstract hero for a blog about data mesh. Light canvas #F7F7F7 with blurred orbs in sky, teal and yellow. Right side: white app window with chrome dots (red, yellow, sky), mono URL "app.d8a.pro / architecture", inside a dark ink central node connected with dashed body blue lines to six white domain nodes around it. One hard-stop frame (sky-deep to yellow). Left: eyebrow "D8A articles · 11" and the words "Data Mesh without the mess" in Geist Bold ink. Faint infinity watermark. No people, no purple. -->
 ![Data mesh implementation: a central D8A architecture shared with domain workspaces](../images/data-mesh-without-the-mess/hero.png)
 *One architecture at the centre, domain teams building around it.*
 

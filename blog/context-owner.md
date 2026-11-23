@@ -24,7 +24,7 @@ The answer is the person who owns its meaning: the context owner data role.
 > - A context owner is responsible for the business context, terminology and rules in the specs of a domain. Engineers own the architecture and review the output.
 > - The role merges parts of the data owner and data steward into one accountable person who works where the code is made.
 
-<!-- IMAGE PROMPT: Abstract hero for a blog about a new data role. Light canvas #F7F7F7 with blurred orbs in sky, teal, yellow. Right side: white app window with chrome dots (red, yellow, sky), mono URL "app.d8a.pro / members", inside two tall cards: a white card with an empty circle avatar outline and a dark ink card with a dark-sub circle outline, suggesting two roles side by side. One hard-stop frame (yellow to sky-deep). Left: eyebrow "D8A blog · 09" and the words "The context owner" in Geist Bold ink. Faint infinity watermark. No people photos, no purple. -->
+<!-- IMAGE PROMPT: Abstract hero for a blog about a new data role. Light canvas #F7F7F7 with blurred orbs in sky, teal, yellow. Right side: white app window with chrome dots (red, yellow, sky), mono URL "app.d8a.pro / members", inside two tall cards: a white card with an empty circle avatar outline and a dark ink card with a dark-sub circle outline, suggesting two roles side by side. One hard-stop frame (yellow to sky-deep). Left: eyebrow "D8A articles · 09" and the words "The context owner" in Geist Bold ink. Faint infinity watermark. No people photos, no purple. -->
 ![Context owner data role shown beside the code owner role in an autonomous data platform](../images/context-owner/hero.png)
 *The person who owns the meaning sits next to the people who own the platform.*
 

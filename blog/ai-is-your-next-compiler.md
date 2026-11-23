@@ -24,7 +24,7 @@ AI code generation for data pipelines is heading the same way: you write and rev
 > - Generation follows a fixed path: request, Spec-DAG, confirmed specs, generated code, execution in an isolated schema, review and merge.
 > - You choose the model, and you set how much the AI may do on its own at each step. Human in command. Always.
 
-<!-- IMAGE PROMPT: Abstract hero for "AI is your next compiler". Light canvas #F7F7F7, soft blurred orbs in sky, teal, yellow and faint red. Stroke-only infinity watermark at 8% ink. Right: white window with chrome dots and mono URL "app.d8a.pro / spec → code", inside an abstract compiler motif: white card, arrow, large ink #262626 square, arrow, white card, with placeholder lines. Hard-stop color frame sky-deep to yellow at 115 degrees. Mono eyebrow "D8A blog · 03", Geist bold headline "AI is your next compiler". No robots, no brains, no people, no purple. 1600x900. -->
+<!-- IMAGE PROMPT: Abstract hero for "AI is your next compiler". Light canvas #F7F7F7, soft blurred orbs in sky, teal, yellow and faint red. Stroke-only infinity watermark at 8% ink. Right: white window with chrome dots and mono URL "app.d8a.pro / spec → code", inside an abstract compiler motif: white card, arrow, large ink #262626 square, arrow, white card, with placeholder lines. Hard-stop color frame sky-deep to yellow at 115 degrees. Mono eyebrow "D8A articles · 03", Geist bold headline "AI is your next compiler". No robots, no brains, no people, no purple. 1600x900. -->
 ![Abstract hero for AI code generation for data pipelines: specs passing through an AI compiler](../images/ai-is-your-next-compiler/hero.png)
 *Specs go in. Platform-native code comes out.*
 
