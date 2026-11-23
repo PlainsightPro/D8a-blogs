@@ -80,7 +80,7 @@ Already have a dbt project? **dbt Takeover** reads your manifest and links exist
 | Documentation | `.yml` descriptions and dbt docs site | Living spec per object; `.yml` descriptions generated from it |
 | Catalogue | dbt docs and lineage graph | Data Objects, Ontology and AI-inferred lineage from specs and code |
 | Team impact | Engineers write SQL and tests by hand | Engineers review generated code; business describes needs in plain language |
-| Cost model | Core free; dbt Cloud per seat or plan ([pricing](https://www.getdbt.com/pricing)) | Subscription priced on spec capacity and AI credits ([D8A pricing](https://d8a.pro/pricing.html)); dbt Core runs in D8A's isolated runner |
+| Cost model | Core free; dbt Cloud per seat or plan ([pricing](https://www.getdbt.com/pricing)) | Subscription priced on spec capacity and AI credits; dbt Core runs in D8A's isolated runner |
 
 <!-- IMAGE PROMPT: Comparison table graphic in D8A brand style: three columns "Topic", "dbt", "D8A" (D8A column header in ink #262626, column tinted light blue), rows Approach, Code ownership, Documentation, Team impact, LLM choice. Body text in body blue #2D6FA8, hairline row dividers #E0E0E0. Chrome dots, Geist, canvas #F7F7F7, no purple. 1600x900. -->
 ![D8A vs dbt comparison table: code-first framework versus spec-first workspace that generates dbt](../images/d8a-vs-dbt/comparison.png)

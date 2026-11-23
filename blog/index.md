@@ -348,5 +348,5 @@ None. Every post can be published as it stands. The notes below are choices made
 - **Context owner.** It is described as an operating role you assign in your team. D8A does not enforce it as a permission today, and the FAQ in the context owner post says so.
 - **Data Mesh.** The agreement between domains is the shared Blueprint plus per-object specs in Git. Moving a domain's work to the core is described as reviewing and adopting specs and code that already fit. No separate data-contract or reintegration feature is claimed.
 - **Competitor facts.** Every claim links to the vendor's own documentation or pricing page.
-- **Pricing.** The cost-model row of each comparison links to [d8a.pro/pricing](https://d8a.pro/pricing.html): a subscription priced on spec capacity and AI credits.
+- **Pricing.** The cost-model row of each comparison describes D8A as a subscription priced on spec capacity and AI credits. It does not link to the pricing page, which is not public yet.
 - **Tagline.** "Ship data, not excuses" is not in Brand Kit v5.0, so the posts use the kit's site lines instead.
