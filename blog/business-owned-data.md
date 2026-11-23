@@ -76,13 +76,13 @@ This is what we mean by every person is a data person. The business needs a plac
 
 ## Faster time to insight
 
-When fewer handoffs sit between a question and an answer, delivery gets faster. The D8A positioning states the goal as "Ship data work weeks faster". We do not yet have measured delivery times from customers to back a specific figure. `[NEED: delivery time data, before and after D8A]`
+When fewer handoffs sit between a question and an answer, delivery gets faster. The waiting disappears first. The request becomes a spec in one conversation, the requester confirms what was meant before any code exists, and the documentation is finished when the code is merged.
 
-The chart below is a placeholder for that comparison.
+The chart below shows the shape of that change.
 
-<!-- IMAGE PROMPT: Line chart on a white card with window chrome. X axis: stages "Request", "Clarified", "Specified", "Built", "In production". Grey line "Ticket-based" rising slowly, body-blue line "With D8A" reaching production sooner. Red dashed label top right "[NEED: delivery time data]". D8A chart rules, horizontal grid only, Geist labels, no 3D. 1600x900. -->
-![Illustrative time to insight before and after D8A, delivery time data still needed](../images/business-owned-data/time-to-insight.png)
-*Illustrative shape only. Real delivery data to follow.*
+<!-- IMAGE PROMPT: Line chart on a white card with window chrome. X axis: stages "Request", "Clarified", "Specified", "Built", "In production". Grey line "Ticket-based" rising slowly, body-blue line "With D8A" reaching production sooner. Small mono label "Illustrative, not measured". D8A chart rules, horizontal grid only, Geist labels, no 3D. 1600x900. -->
+![Illustrative time to insight for business-owned data: ticket-based delivery versus D8A](../images/business-owned-data/time-to-insight.png)
+*Illustrative shape: fewer handoffs mean the request reaches production sooner.*
 
 What we can say without numbers is where the time goes. The ticket ping-pong between business and IT shrinks because the spec answers the questions upfront. Rework drops because code is validated against the spec the business already approved.
 
@@ -118,6 +118,5 @@ Yes. Specs live in your Git repository and change through branches and review li
 - [What is the impact of D8A on your team?](./data-team-capacity.md): what changes for your data engineers.
 
 ---
-<!-- NEED: replace with demo booking URL when live -->
 **Stop managing process. Start shipping data.** See how a plain-language request becomes a spec your business can own.
-**[Book a D8A demo](https://d8a.pro/#waitlist)** · [Start with the overview: what is D8A?](./what-is-d8a.md)
+**[Book a D8A demo](mailto:hello@d8a.pro?subject=D8A%20demo)** · [Join the waitlist](https://d8a.pro/#waitlist) · [Start with the overview: what is D8A?](./what-is-d8a.md)

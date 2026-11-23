@@ -180,6 +180,5 @@ Plain SQL or dbt models, depending on the Code Format of each data platform, plu
 - [Take back control with a sovereign data stack](./sovereign-data-stack.md): who owns your specs, code and model choice.
 
 ---
-<!-- NEED: replace with demo booking URL when live -->
 **Stop managing process. Start shipping data.** See the full flow, from strategy to merged code, on your own stack.
-**[Book a D8A demo](https://d8a.pro/#waitlist)** · [Start with the first post: specs are the new code](./specs-are-the-new-code.md)
+**[Book a D8A demo](mailto:hello@d8a.pro?subject=D8A%20demo)** · [Join the waitlist](https://d8a.pro/#waitlist) · [Start with the first post: specs are the new code](./specs-are-the-new-code.md)

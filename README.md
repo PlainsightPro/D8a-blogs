@@ -2,7 +2,7 @@
 
 Blog content for [d8a.pro](https://d8a.pro): the series **Specs are the new code**. It has one pillar page and sixteen posts that link to each other. The series is written for Heads of Data, CDOs, CIOs and data engineering leads in Belgium and the Netherlands.
 
-Start with the [series index](./blog/index.md). It lists every post, its primary keyword, buyer stage, the link map, the title options considered and all open items.
+Start with the [series index](./blog/index.md). It lists every post, its primary keyword, buyer stage, the link map, the title options considered and the editorial choices behind the copy.
 
 ## The series
 
@@ -47,11 +47,12 @@ images/
 - **Diagrams.** Every flow or architecture diagram also has a Mermaid version below the image, so GitHub can render it without the PNG.
 - **Image prompts.** Each image has an `<!-- IMAGE PROMPT: ... -->` comment above its embed, so a designer or image model can redo it.
 - **Images.** All images were rendered in the D8A Brand Kit v5.0 style: Geist and Geist Mono, canvas `#F7F7F7`, ink `#262626`, body blue `#2D6FA8`, chrome dots, color frames, medallion chips only for bronze, silver and gold. They contain no stock photos or people.
-- **Status.** Every post is `published: draft`. Resolve the open `[NEED: ...]` items in the [index](./blog/index.md#open-items) before publishing.
-- **Demo CTA.** Every post points to `https://d8a.pro/#waitlist`, the current conversion point on the site. Each CTA has a `NEED` comment so it can be swapped for a demo booking URL.
+- **Status.** Every post is `published: draft` and ready to publish. There are no open items.
+- **Demo CTA.** "Book a D8A demo" opens an email to hello@d8a.pro, with the waitlist link next to it. When a booking page exists, swap the `mailto:` link.
 
 ## Sources
 
-- Product facts come from `PlainsightPro/D8a-application`: CONTEXT.md, ADRs, product specs, prompts and the marketplace. Features that could not be confirmed there are marked `[NEED: ...]`.
+- Product facts come from `PlainsightPro/D8a-application`: CONTEXT.md, ADRs, product specs, prompts and the marketplace. Features that could not be confirmed there are not claimed.
 - Voice, positioning, colours and type come from `PlainsightPro/D8a-Brand-Kit` v5.0.
-- Site structure and CTA come from `PlainsightPro/D8a-website`.
+- Site structure, pricing and CTA come from `PlainsightPro/D8a-website`.
+- Competitor facts link to each vendor's official documentation.

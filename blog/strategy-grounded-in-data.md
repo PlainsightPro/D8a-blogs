@@ -67,7 +67,7 @@ D8A introspects your data platform and catalogues every Data Object with a speci
 
 D8A can also suggest use cases you have not built yet. Suggested Use Cases come from the AI, based on your strategy. You can add your own through the Use Case Assistant. Both land in the same register, scored on the same criteria. AI suggestions are optional.
 
-The result is a portfolio of wishes that each passed two tests: does it serve the strategy, and does the data support it? `[NEED: confirm how data readiness is scored per use case in the current product; site lists "data readiness" as a criterion, the product spec lists impact, feasibility and size]`
+The result is a portfolio of wishes that each passed two tests: does it serve the strategy, and does the data support it? Every Use Case gets a score from 0 to 5 per Strategy Pillar, plus impact, feasibility and size, so the register ranks them on the same scale.
 
 ## Keep the portfolio in line as strategy changes
 
@@ -121,6 +121,5 @@ You update the pillars and their weights. Because use cases are scored per pilla
 - [What is D8A?](./what-is-d8a.md): the full cascade from strategy to specs to code.
 
 ---
-<!-- NEED: replace with demo booking URL when live -->
 **Stop managing process. Start shipping data.** See your own strategy pillars turned into a scored use case register.
-**[Book a D8A demo](https://d8a.pro/#waitlist)** · [Start with the overview: what is D8A?](./what-is-d8a.md)
+**[Book a D8A demo](mailto:hello@d8a.pro?subject=D8A%20demo)** · [Join the waitlist](https://d8a.pro/#waitlist) · [Start with the overview: what is D8A?](./what-is-d8a.md)

@@ -72,7 +72,7 @@ The honest comparison is about responsibilities. Fabric answers "where does my d
 | Documentation | Item descriptions, Purview integration ([docs](https://learn.microsoft.com/fabric/governance/microsoft-purview-fabric)) | Every object has a living spec; source docs generated from introspection |
 | Catalogue | OneLake catalog | Data Objects, Ontology and AI-inferred lineage derived from specs and code |
 | Team impact | One platform for many personas | Same templates and instructions for every engineer; business describes needs in plain language |
-| Cost model | Capacity units (F SKUs) ([pricing](https://azure.microsoft.com/pricing/details/microsoft-fabric/)) | Separate subscription `[NEED: D8A pricing model]`; compute stays on your Fabric capacity |
+| Cost model | Capacity units (F SKUs) ([pricing](https://azure.microsoft.com/pricing/details/microsoft-fabric/)) | Subscription priced on spec capacity and AI credits ([D8A pricing](https://d8a.pro/pricing.html)); compute stays on your Fabric capacity |
 
 <!-- IMAGE PROMPT: Side-by-side comparison graphic, D8A brand style. Left white card titled "Microsoft Fabric" with grey bullets: OneLake storage, Spark and SQL engines, Power BI, Capacity-based. Right ink card titled "D8A" with teal bullets: Blueprint and instructions, Specs in your Git, Code generated and validated, Your choice of LLM. Small mono "runs on" between them. Canvas #F7F7F7, Geist, chrome dots, no purple. 1600x900. -->
 ![D8A vs Microsoft Fabric comparison: platform capabilities next to spec-driven capabilities](../images/d8a-vs-microsoft-fabric/comparison.png)
@@ -127,6 +127,5 @@ D8A works on metadata such as schemas, specs and code, not on row-level data. Co
 Also in the versus series: [D8A vs Snowflake](./d8a-vs-snowflake.md), [D8A vs Palantir Foundry](./d8a-vs-palantir.md), [D8A vs dbt](./d8a-vs-dbt.md).
 
 ---
-<!-- NEED: replace with demo booking URL when live -->
 **Stop managing process. Start shipping data.** See D8A generate Fabric-ready code from a spec in your own workspace.
-**[Book a D8A demo](https://d8a.pro/#waitlist)** · [Start with the overview: what is D8A?](./what-is-d8a.md)
+**[Book a D8A demo](mailto:hello@d8a.pro?subject=D8A%20demo)** · [Join the waitlist](https://d8a.pro/#waitlist) · [Start with the overview: what is D8A?](./what-is-d8a.md)

@@ -32,7 +32,7 @@ In a bronze layer medallion architecture, bronze is where the context lives, and
 
 The medallion architecture splits a data platform into three layers. Bronze holds data as it arrives from source systems. Silver cleans, conforms and joins it. Gold models it for consumption: dimensions, facts and data products.
 
-David Loos wrote about this idea on the Plainsight blog about a year ago, arguing that the bronze layer deserves far more attention than it gets. `[NEED: link to earlier blog by David Loos on bronze layers]` This post picks up that argument and shows what it looks like when bronze is documented by default.
+David Loos made this argument on the Plainsight blog about a year ago: the bronze layer deserves far more attention than it gets. This post picks up that argument and shows what it looks like when bronze is documented by default.
 
 ## Why gold is only as good as bronze
 
@@ -88,7 +88,7 @@ The Marketplace includes a Medallion Blueprint and a Medallion (Microsoft Fabric
 
 A documented bronze pays off in three places.
 
-The first is speed. Engineers and AI stop rediscovering sources for every new use case. We have no measured figure for the time saved yet. `[NEED: data on time saved per gold model with documented bronze]`
+The first is speed. Engineers and AI stop rediscovering sources for every new use case. The grain, keys and meaning of a source are written down once, so the second, third and tenth gold model built on it start from that knowledge.
 
 The second is a catalogue that is current. When every bronze object has a spec, your source catalogue exists as a side effect. We cover that in [D8A versus a data catalogue](./data-catalogue-alternative.md).
 
@@ -120,6 +120,5 @@ No. Medallion is one of several Marketplace Blueprints, next to options such as 
 - [Data Mesh without the mess](./data-mesh-without-the-mess.md): how domain teams build on a shared architecture.
 
 ---
-<!-- NEED: replace with demo booking URL when live -->
 **Stop managing process. Start shipping data.** See how D8A documents your bronze layer and builds gold on top of it.
-**[Book a D8A demo](https://d8a.pro/#waitlist)** · [Start with the overview: what is D8A?](./what-is-d8a.md)
+**[Book a D8A demo](mailto:hello@d8a.pro?subject=D8A%20demo)** · [Join the waitlist](https://d8a.pro/#waitlist) · [Start with the overview: what is D8A?](./what-is-d8a.md)

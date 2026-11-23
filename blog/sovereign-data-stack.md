@@ -66,7 +66,7 @@ Three options matter most for European teams:
 - **Amazon Bedrock** runs in the AWS region you configure.
 - **Snowflake Cortex** and **Databricks model serving** answer prompts with models inside your own Snowflake account or Databricks workspace.
 
-AI Workflows in D8A never reference a model by name. They reference Model Roles (general purpose, classifier, embedding), which you map to the models of your choice. Switching models is a configuration change. [NEED: confirm EU hosting region commitment for the D8A managed workspace]
+AI Workflows in D8A never reference a model by name. They reference Model Roles (general purpose, classifier, embedding), which you map to the models of your choice. Switching models is a configuration change. Pick a provider endpoint in the region you need, such as Azure AI Foundry in your own Azure tenant, and prompts stay there.
 
 ## The layered view: specs, code, LLM, storage and compute
 
@@ -92,7 +92,7 @@ The bottom layers are where your platform vendor shines. D8A treats them as bare
 
 D8A generates code per Data Platform, following the Agentic Layer Instructions you set for each platform, layer and pattern. Supported connections include PostgreSQL, MySQL, MariaDB, SQL Server, Azure SQL, Azure Synapse, Microsoft Fabric, Snowflake, Databricks, BigQuery, Amazon Redshift, ClickHouse, Oracle, DuckDB, SQLite and Power BI.
 
-Because specifications describe intent instead of dialect, the same spec can drive code for a different target. Define once. Deliver anywhere. A migration still needs testing, data movement and review. It no longer needs rediscovery of what each table means. [NEED: real example or measured effort of a platform switch with D8A]
+Because specifications describe intent instead of dialect, the same spec can drive code for a different target. Define once. Deliver anywhere. A migration still needs testing, data movement and review. It no longer needs rediscovery of what each table means.
 
 ## Sovereignty without picking a fight with your vendor
 
@@ -130,6 +130,5 @@ Not today. Self-hosting is on the roadmap for enterprise plans, and early access
 - [AI is your next compiler](./ai-is-your-next-compiler.md): how the model you choose turns specs into code.
 
 ---
-<!-- NEED: replace with demo booking URL when live -->
 **Stop managing process. Start shipping data.** See where your specs, code and model choice live in a D8A workspace.
-**[Book a D8A demo](https://d8a.pro/#waitlist)** · [Start with the overview: what is D8A?](./what-is-d8a.md)
+**[Book a D8A demo](mailto:hello@d8a.pro?subject=D8A%20demo)** · [Join the waitlist](https://d8a.pro/#waitlist) · [Start with the overview: what is D8A?](./what-is-d8a.md)

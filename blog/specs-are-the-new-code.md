@@ -107,6 +107,5 @@ Business users describe what they need in plain language, and D8A's AI Builder d
 - [D8A versus a data catalogue](./data-catalogue-alternative.md): why the catalogue becomes a by-product of specs.
 
 ---
-<!-- NEED: replace with demo booking URL when live -->
 **Stop managing process. Start shipping data.** Watch a plain-language request become a reviewed spec and generated code.
-**[Book a D8A demo](https://d8a.pro/#waitlist)** · [Start with the overview: what is D8A?](./what-is-d8a.md)
+**[Book a D8A demo](mailto:hello@d8a.pro?subject=D8A%20demo)** · [Join the waitlist](https://d8a.pro/#waitlist) · [Start with the overview: what is D8A?](./what-is-d8a.md)

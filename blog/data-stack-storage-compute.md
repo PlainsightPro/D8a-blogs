@@ -92,13 +92,11 @@ LLM calls go through an LLM Connection you configure, with your own keys. Provid
 
 ## What does it save?
 
-We will not put a number on it without data. Cost depends on your platform, contract and workload, and we have no published customer figures yet. `[NEED: cost figures from a real platform comparison or customer case]`
+The amount depends on your platform, contract and workload. The cost lines that move are the same in every estate, and the table below lists them.
 
-The chart below shows the comparison we plan to publish. The values are placeholders.
-
-<!-- IMAGE PROMPT: Grouped bar chart on a white card with window chrome. Groups: "Platform licence", "Engineering hours", "Switching cost". Grey bars "Feature-heavy stack", body-blue bars "D8A on plain compute". Red dashed label top right "[NEED: cost figures]". D8A chart rules, horizontal grid #E0E0E0, Geist labels, no 3D. 1600x900. -->
-![Illustrative data platform cost comparison, real cost figures still needed](../images/data-stack-storage-compute/cost-comparison.png)
-*Placeholder values. Real cost figures to follow.*
+<!-- IMAGE PROMPT: Comparison table on a white card with window chrome titled "Where the money goes". Columns: Cost line, Feature-heavy stack, D8A on plain compute (ink header highlight). Rows: Platform licence, Engineering hours, Documentation and catalogue, Switching cost. Short qualitative cells. D8A brand kit v5.0, Geist, canvas #F7F7F7, no numbers, no purple. 1600x900. -->
+![Data platform cost optimisation: where the money goes in a feature-heavy stack versus D8A on plain compute](../images/data-stack-storage-compute/cost-comparison.png)
+*You pay for storage and compute on fast, proven technology. The logic stays yours.*
 
 ## What this means for your platform partners
 
@@ -130,6 +128,5 @@ D8A works on metadata: schemas, lineage, specifications and code. Specs and gene
 - [D8A versus Databricks](./d8a-vs-databricks.md): how D8A uses Databricks for storage and compute.
 
 ---
-<!-- NEED: replace with demo booking URL when live -->
 **Stop managing process. Start shipping data.** See D8A generate code for the platform you already run.
-**[Book a D8A demo](https://d8a.pro/#waitlist)** · [Start with the overview: what is D8A?](./what-is-d8a.md)
+**[Book a D8A demo](mailto:hello@d8a.pro?subject=D8A%20demo)** · [Join the waitlist](https://d8a.pro/#waitlist) · [Start with the overview: what is D8A?](./what-is-d8a.md)

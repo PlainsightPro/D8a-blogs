@@ -76,11 +76,11 @@ Already have a dbt project? **dbt Takeover** reads your manifest and links exist
 | Approach | Code-first transformation framework | Spec-first workspace that generates code, including dbt |
 | Ownership of code and specs | dbt project in your Git repo | Specs and generated dbt project in your Git repo |
 | Lock-in | Open source core; SQL is warehouse-specific | Specs are plain Markdown; target platform can change |
-| LLM choice | dbt Copilot in dbt Cloud `[NEED: source]` | Your own LLM Connection: Azure AI Foundry, Anthropic, Bedrock, Google AI, OpenRouter, Cortex, Databricks serving |
+| LLM choice | dbt Copilot in the dbt platform, with a dbt-managed or your own OpenAI or Azure OpenAI key ([docs](https://docs.getdbt.com/docs/dbt-ai/copilot-overview)) | Your own LLM Connection: Azure AI Foundry, Anthropic, Bedrock, Google AI, OpenRouter, Cortex, Databricks serving |
 | Documentation | `.yml` descriptions and dbt docs site | Living spec per object; `.yml` descriptions generated from it |
 | Catalogue | dbt docs and lineage graph | Data Objects, Ontology and AI-inferred lineage from specs and code |
 | Team impact | Engineers write SQL and tests by hand | Engineers review generated code; business describes needs in plain language |
-| Cost model | Core free; dbt Cloud per seat or plan ([pricing](https://www.getdbt.com/pricing)) | Separate subscription `[NEED: D8A pricing model]`; dbt Core runs in D8A's isolated runner |
+| Cost model | Core free; dbt Cloud per seat or plan ([pricing](https://www.getdbt.com/pricing)) | Subscription priced on spec capacity and AI credits ([D8A pricing](https://d8a.pro/pricing.html)); dbt Core runs in D8A's isolated runner |
 
 <!-- IMAGE PROMPT: Comparison table graphic in D8A brand style: three columns "Topic", "dbt", "D8A" (D8A column header in ink #262626, column tinted light blue), rows Approach, Code ownership, Documentation, Team impact, LLM choice. Body text in body blue #2D6FA8, hairline row dividers #E0E0E0. Chrome dots, Geist, canvas #F7F7F7, no purple. 1600x900. -->
 ![D8A vs dbt comparison table: code-first framework versus spec-first workspace that generates dbt](../images/d8a-vs-dbt/comparison.png)
@@ -132,6 +132,5 @@ D8A's `spec_to_dbt` workflow generates a `.yml` file with tests and descriptions
 More comparisons: [D8A vs Microsoft Fabric](./d8a-vs-microsoft-fabric.md), [D8A vs Databricks](./d8a-vs-databricks.md), [D8A vs Snowflake](./d8a-vs-snowflake.md), [D8A vs Palantir Foundry](./d8a-vs-palantir.md).
 
 ---
-<!-- NEED: replace with demo booking URL when live -->
 **Stop managing process. Start shipping data.** See D8A generate a dbt model and its tests from a spec.
-**[Book a D8A demo](https://d8a.pro/#waitlist)** · [Start with the overview: what is D8A?](./what-is-d8a.md)
+**[Book a D8A demo](mailto:hello@d8a.pro?subject=D8A%20demo)** · [Join the waitlist](https://d8a.pro/#waitlist) · [Start with the overview: what is D8A?](./what-is-d8a.md)

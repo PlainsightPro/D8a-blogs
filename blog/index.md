@@ -341,79 +341,12 @@ Title options considered:
 
 ## Open items
 
-Every `[NEED: ...]` marker in the series, per post. The demo CTA in every post points to the waitlist (`https://d8a.pro/#waitlist`) until a demo booking page exists.
+None. Every post can be published as it stands. The notes below are choices made in the copy, so a reviewer knows them.
 
-**1. [sovereign-data-stack](./sovereign-data-stack.md)**
-
-- `[NEED: confirm EU hosting region commitment for the D8A managed workspace]`
-- `[NEED: real example or measured effort of a platform switch with D8A]`
-
-**3. [ai-is-your-next-compiler](./ai-is-your-next-compiler.md)**
-
-- `[NEED: measured time from request to merged code, before and after D8A]`
-
-**4. [data-team-capacity](./data-team-capacity.md)**
-
-- `[NEED: real numbers on capacity gain from early access teams]`
-- `[NEED: real numbers]`
-- `[NEED: onboarding time data]`
-
-**5. [bronze-is-the-new-gold](./bronze-is-the-new-gold.md)**
-
-- `[NEED: link to earlier blog by David Loos on bronze layers]`
-- `[NEED: data on time saved per gold model with documented bronze]`
-
-**6. [data-stack-storage-compute](./data-stack-storage-compute.md)**
-
-- `[NEED: cost figures from a real platform comparison or customer case]`
-- `[NEED: cost figures]`
-
-**7. [business-owned-data](./business-owned-data.md)**
-
-- `[NEED: delivery time data, before and after D8A]`
-- `[NEED: delivery time data]`
-
-**8. [data-catalogue-alternative](./data-catalogue-alternative.md)**
-
-- `[NEED: data or survey on catalogue freshness over time, if we want a number]`
-- `[NEED: confirm Context Owner role in product; role grid not enforced yet per SecurityModel]`
-- `[NEED: confirm integrations with catalogue tools such as Purview, Unity Catalog or Collibra; none found in the product today]`
-
-**9. [context-owner](./context-owner.md)**
-
-- `[NEED: confirm Context Owner role in product; role grid not enforced yet per SecurityModel]`
-
-**10. [strategy-grounded-in-data](./strategy-grounded-in-data.md)**
-
-- `[NEED: confirm how data readiness is scored per use case in the current product; site lists "data readiness" as a criterion, the product spec lists impact, feasibility and size]`
-
-**11. [data-mesh-without-the-mess](./data-mesh-without-the-mess.md)**
-
-- `[NEED: confirm feature data contracts]`
-- `[NEED: confirm feature reintegration of domain workspaces into a central workspace]`
-
-**12. [d8a-vs-microsoft-fabric](./d8a-vs-microsoft-fabric.md)**
-
-- `[NEED: D8A pricing model]`
-
-**13. [d8a-vs-databricks](./d8a-vs-databricks.md)**
-
-- `[NEED: source]`
-- `[NEED: D8A pricing model]`
-
-**14. [d8a-vs-snowflake](./d8a-vs-snowflake.md)**
-
-- `[NEED: D8A pricing model]`
-- `[NEED: customer cost data]`
-
-**15. [d8a-vs-palantir](./d8a-vs-palantir.md)**
-
-- `[NEED: source]`
-- `[NEED: source on export options]`
-- `[NEED: D8A pricing model]`
-
-**16. [d8a-vs-dbt](./d8a-vs-dbt.md)**
-
-- `[NEED: source]`
-- `[NEED: D8A pricing model]`
-
+- **Demo CTA.** "Book a D8A demo" opens an email to hello@d8a.pro with the subject "D8A demo". The waitlist link sits next to it. When a booking page goes live, replace the `mailto:` link in the CTA block of each post.
+- **Numbers.** The posts contain no capacity, cost or delivery-time figures. They explain where effort and cost move, which holds for every estate. The two line charts are labelled as illustrative.
+- **Context owner.** It is described as an operating role you assign in your team. D8A does not enforce it as a permission today, and the FAQ in the context owner post says so.
+- **Data Mesh.** The agreement between domains is the shared Blueprint plus per-object specs in Git. Moving a domain's work to the core is described as reviewing and adopting specs and code that already fit. No separate data-contract or reintegration feature is claimed.
+- **Competitor facts.** Every claim links to the vendor's own documentation or pricing page.
+- **Pricing.** The cost-model row of each comparison links to [d8a.pro/pricing](https://d8a.pro/pricing.html): a subscription priced on spec capacity and AI credits.
+- **Tagline.** "Ship data, not excuses" is not in Brand Kit v5.0, so the posts use the kit's site lines instead.

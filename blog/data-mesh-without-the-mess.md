@@ -75,7 +75,7 @@ The central team keeps control of the things that make data reusable across doma
 - the instructions the AI follows for specs and code,
 - the Marketplace Blueprints you choose to offer.
 
-Data contracts between domains and the central platform are a common part of Data Mesh designs. In D8A, the contract today is the shared architecture plus the specification of each object: its columns, types, grain and lineage. `[NEED: confirm feature data contracts]`
+Data contracts between domains and the central platform are a common part of Data Mesh designs. In D8A, that agreement is written down in two places: the shared architecture every domain builds on, and the specification of each object, with its columns, types, grain and lineage. Both live in Git, so a change to either goes through review.
 
 Domains run on whatever storage and compute they need, as long as D8A supports it. Specs and architecture stay put when the target changes, which keeps the [stack choice about storage and compute](./data-stack-storage-compute.md) instead of features.
 
@@ -86,7 +86,7 @@ Domains run on whatever storage and compute they need, as long as D8A supports i
 
 A domain product often starts small: one team, one question, a handful of objects. If it proves its value, other domains want it, and it may belong in the central platform.
 
-Because the domain built on the same Blueprint, its specs follow the same layers, patterns and naming as the core. Moving it is a matter of moving specs and code that already fit. Workspace Export and Import can move a workspace's content between environments. `[NEED: confirm feature reintegration of domain workspaces into a central workspace]`
+Because the domain built on the same Blueprint, its specs follow the same layers, patterns and naming as the core. Moving it is a matter of moving specs and code that already fit. The specs and code are files in the domain's Git repository, so the central team reviews them like any other change before taking them over.
 
 <!-- IMAGE PROMPT: Lifecycle diagram in D8A brand style on a white window card with chrome dots. Four nodes in a row with arrows: "Copy workspace" (sub "Central Blueprint"), "Domain builds" (sub "Own specs and products"), "Product proves value" (sub "Used beyond the domain"), "Reintegrate" (dark ink, sub "Into the central platform"). A dashed body blue return arrow under the row labelled "Same architecture, so it fits". Geist type. -->
 ![Lifecycle of a domain data product from workspace copy to reintegration into the central platform](../images/data-mesh-without-the-mess/product-lifecycle.png)
@@ -120,7 +120,7 @@ They need people who know the domain and can confirm specs. Engineering patterns
 
 ### Does D8A support data contracts?
 
-The shared architecture and the per-object specifications (columns, types, grain, lineage) act as the agreement between domains and the centre today. A dedicated data contract feature is not confirmed. `[NEED: confirm feature data contracts]`
+The shared architecture and the per-object specifications (columns, types, grain, lineage) act as the agreement between domains and the centre today. Because both live in Git, every change to them is reviewed and traceable.
 
 ## Read next
 
@@ -129,6 +129,5 @@ The shared architecture and the per-object specifications (columns, types, grain
 - [What is the impact of D8A on your technological stack?](./data-stack-storage-compute.md): storage and compute as the only job your platform needs to do.
 
 ---
-<!-- NEED: replace with demo booking URL when live -->
 **Stop managing process. Start shipping data.** See how one Blueprint becomes a workspace for every domain.
-**[Book a D8A demo](https://d8a.pro/#waitlist)** · [Start with the overview: what is D8A?](./what-is-d8a.md)
+**[Book a D8A demo](mailto:hello@d8a.pro?subject=D8A%20demo)** · [Join the waitlist](https://d8a.pro/#waitlist) · [Start with the overview: what is D8A?](./what-is-d8a.md)

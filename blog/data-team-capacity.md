@@ -74,13 +74,11 @@ flowchart LR
 
 ## How much capacity do you gain?
 
-We do not have measured customer data to publish yet, so we will not invent a percentage. `[NEED: real numbers on capacity gain from early access teams]`
+The gain depends on your team, your stack and how much of your work repeats the same patterns. Where the hours shift is the same everywhere, and the table below shows it per activity.
 
-What we can show is where the hours shift. The chart below is illustrative: it shows the shape of the change, not a benchmark.
-
-<!-- IMAGE PROMPT: Grouped bar chart on a white card with window chrome. Four groups: "Clarify request", "Write code", "Document", "Review". Grey bars for "Hand-built", body-blue bars for "With D8A". Red dashed label top right "[NEED: real numbers]". D8A chart rules: ink and body blue hero, grey ramp, horizontal grid #E0E0E0, Geist labels, no 3D. 1600x900. -->
-![Illustrative data team capacity chart: hours per delivery before and after D8A, real numbers still needed](../images/data-team-capacity/capacity-before-after.png)
-*Illustrative only. We will replace this with measured data.*
+<!-- IMAGE PROMPT: Comparison table on a white card with window chrome titled "Where the hours go per delivery". Columns: Activity, Hand-built, With D8A (ink header highlight). Rows: Clarify request, Write code, Document, Review, Onboard a new engineer. Short qualitative cells in body blue. D8A brand kit v5.0, Geist and Geist Mono, canvas #F7F7F7, no numbers, no purple. 1600x900. -->
+![Data engineering team productivity: where the hours go per delivery, hand-built versus with D8A](../images/data-team-capacity/capacity-before-after.png)
+*Effort moves from typing and rediscovery to decisions and review.*
 
 The point is where effort moves. Engineers spend less time on boilerplate, documentation and rediscovery. They spend more time on modelling decisions, edge cases and review. That is the work that changes the numbers for the business.
 
@@ -117,7 +115,7 @@ The Data Architecture on the Blueprint holds Agentic Layer Instructions per laye
 Yes. Automation Mode is set per board column. You can keep a human on every step and loosen it per pattern as trust grows.
 
 ### How long does onboarding take for a new engineer?
-We have no measured onboarding times to share yet. `[NEED: onboarding time data]` New joiners do get a readable starting point: the Blueprint and a Markdown spec for every Data Object.
+It depends on the person and the estate. What changes is the starting point: a new joiner reads the Blueprint and a Markdown spec for every Data Object instead of reverse-engineering code and chasing colleagues.
 
 ## Read next
 
@@ -126,6 +124,5 @@ We have no measured onboarding times to share yet. `[NEED: onboarding time data]
 - [What is the impact of D8A on your technological stack?](./data-stack-storage-compute.md): why storage and compute become the only things you buy.
 
 ---
-<!-- NEED: replace with demo booking URL when live -->
 **Stop managing process. Start shipping data.** See how your team would work from one Blueprint and one spec format.
-**[Book a D8A demo](https://d8a.pro/#waitlist)** · [Start with the overview: what is D8A?](./what-is-d8a.md)
+**[Book a D8A demo](mailto:hello@d8a.pro?subject=D8A%20demo)** · [Join the waitlist](https://d8a.pro/#waitlist) · [Start with the overview: what is D8A?](./what-is-d8a.md)

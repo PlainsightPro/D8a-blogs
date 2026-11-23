@@ -99,7 +99,7 @@ An LLM Connection can use OpenRouter, Anthropic, Azure AI Foundry, Amazon Bedroc
 
 ## What this means for your team
 
-When AI handles translation, engineers spend less time on boilerplate and more on architecture, instructions and review. It removes process work, not engineers. The effect on capacity and consistency is the subject of [what D8A changes for your data team](./data-team-capacity.md). [NEED: measured time from request to merged code, before and after D8A]
+When AI handles translation, engineers spend less time on boilerplate and more on architecture, instructions and review. It removes process work, not engineers. The effect on capacity and consistency is the subject of [what D8A changes for your data team](./data-team-capacity.md).
 
 > [!NOTE]
 > **Key takeaway:** Treat specs as source and AI as the compiler. Put your effort into the specification and the architecture rules, and let D8A generate, run and check the code under your review.
@@ -125,6 +125,5 @@ Coding assistants help one developer type faster. D8A manages the lifecycle from
 - [What D8A changes for your data team](./data-team-capacity.md): capacity and consistency when AI handles translation.
 
 ---
-<!-- NEED: replace with demo booking URL when live -->
 **Stop managing process. Start shipping data.** See a spec compile into platform-native code and run in an isolated branch.
-**[Book a D8A demo](https://d8a.pro/#waitlist)** · [Start with the overview: what is D8A?](./what-is-d8a.md)
+**[Book a D8A demo](mailto:hello@d8a.pro?subject=D8A%20demo)** · [Join the waitlist](https://d8a.pro/#waitlist) · [Start with the overview: what is D8A?](./what-is-d8a.md)

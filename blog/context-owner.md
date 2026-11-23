@@ -40,7 +40,7 @@ Once code follows specs, the code owner role loses most of its weight. The quest
 
 A context owner is the person accountable for the business context of a domain: the definitions, terms, rules and priorities that end up in its specifications. They do not write SQL. They make sure "active customer", "net revenue" or "on-time delivery" mean the same thing in the spec as in the boardroom.
 
-D8A is designed around this way of working. Business users describe what they need in plain language, the AI drafts a Spec-DAG, and someone with domain knowledge confirms the specs before code is generated. The context owner is that someone, for their domain. `[NEED: confirm Context Owner role in product; role grid not enforced yet per SecurityModel]`
+D8A is designed around this way of working. Business users describe what they need in plain language, the AI drafts a Spec-DAG, and someone with domain knowledge confirms the specs before code is generated. The context owner is that someone, for their domain.
 
 Today, permissions in D8A are workspace based: organization roles plus a Workspace Admin flag. The context owner is an operating role you assign in your team, not a permission the product enforces per domain yet.
 
@@ -107,7 +107,7 @@ No SQL is required. They need deep knowledge of the business domain and the disc
 
 ### Does D8A enforce context owner permissions?
 
-Not yet. D8A has organization roles and a Workspace Admin flag today, and domain-level grants are not built. You assign the context owner as an operating role in your team. `[NEED: confirm Context Owner role in product; role grid not enforced yet per SecurityModel]`
+Not yet. D8A has organization roles and a Workspace Admin flag today, and domain-level grants are not built. You assign the context owner as an operating role in your team.
 
 ## Read next
 
@@ -116,6 +116,5 @@ Not yet. D8A has organization roles and a Workspace Admin flag today, and domain
 - [Specs are the new code](./specs-are-the-new-code.md): the principle behind the role.
 
 ---
-<!-- NEED: replace with demo booking URL when live -->
 **Stop managing process. Start shipping data.** See how a context owner confirms a spec and D8A generates the code from it.
-**[Book a D8A demo](https://d8a.pro/#waitlist)** · [Start with the overview: what is D8A?](./what-is-d8a.md)
+**[Book a D8A demo](mailto:hello@d8a.pro?subject=D8A%20demo)** · [Join the waitlist](https://d8a.pro/#waitlist) · [Start with the overview: what is D8A?](./what-is-d8a.md)

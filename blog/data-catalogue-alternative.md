@@ -40,7 +40,7 @@ The catalogue then becomes a project of its own, with a backlog, a steward and a
 ![Line chart comparing how a classic data catalogue project decays against a spec-driven catalogue that stays current](../images/data-catalogue-alternative/catalogue-decay.png)
 *Illustrative shape, not measured data: documentation written after the code drifts; documentation the code is generated from does not.*
 
-The pattern is familiar to most Heads of Data. The exact decay rate differs per team `[NEED: data or survey on catalogue freshness over time, if we want a number]`, but the cause is structural. Documentation that lives outside the delivery flow loses the race against delivery.
+The pattern is familiar to most Heads of Data. The decay rate differs per team, but the cause is structural. Documentation that lives outside the delivery flow loses the race against delivery.
 
 ## What a spec-driven data catalogue alternative looks like
 
@@ -88,13 +88,13 @@ The Ontology groups business Entities into Domains and binds them to Data Object
 
 Tooling solves freshness. It does not solve meaning. Someone still has to decide what "active customer" means and approve the wording in the spec.
 
-In a classic setup that person is a data steward who edits catalogue pages. In a spec-driven setup the same knowledge goes straight into the specification, the file the code is generated from. That is the job of a [context owner](./context-owner.md): the person who owns the business context and terminology of a domain, while the code follows. `[NEED: confirm Context Owner role in product; role grid not enforced yet per SecurityModel]`
+In a classic setup that person is a data steward who edits catalogue pages. In a spec-driven setup the same knowledge goes straight into the specification, the file the code is generated from. That is the job of a [context owner](./context-owner.md): the person who owns the business context and terminology of a domain, while the code follows.
 
 The shift matters for budget too. You stop funding a separate documentation workstream. The time goes into better specs, which pay off in better code, better docs and a catalogue people can trust.
 
 ## When do you still need a dedicated catalogue tool?
 
-Be honest about the edges. D8A catalogues the Data Objects it manages through specs in a Workspace. If you need an enterprise-wide inventory across many systems D8A does not touch, a dedicated catalogue may still have a role as the index on top. `[NEED: confirm integrations with catalogue tools such as Purview, Unity Catalog or Collibra; none found in the product today]`
+Be honest about the edges. D8A catalogues the Data Objects it manages through specs in a Workspace. If you need an enterprise-wide inventory across many systems D8A does not touch, a dedicated catalogue may still have a role as the index on top.
 
 D8A also works on metadata: schemas, lineage, specifications and code. It does not profile row-level data. If data quality profiling on actual values is a core requirement, plan for that separately.
 
@@ -125,6 +125,5 @@ Yes. D8A introspects your data platform and can draft documentation specs for ex
 - [Bronze is the new gold](./bronze-is-the-new-gold.md): why documentation should start at the bronze layer.
 
 ---
-<!-- NEED: replace with demo booking URL when live -->
 **Stop managing process. Start shipping data.** See how a living spec turns into code, lineage and a catalogue entry in one commit.
-**[Book a D8A demo](https://d8a.pro/#waitlist)** · [Start with the overview: what is D8A?](./what-is-d8a.md)
+**[Book a D8A demo](mailto:hello@d8a.pro?subject=D8A%20demo)** · [Join the waitlist](https://d8a.pro/#waitlist) · [Start with the overview: what is D8A?](./what-is-d8a.md)
