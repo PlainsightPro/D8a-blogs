@@ -114,7 +114,7 @@ Three familiar data topics look different once specs carry the context.
 
 ## How does D8A compare with Fabric, Databricks, Snowflake, Palantir and dbt?
 
-D8A generates code that runs on these platforms. In most cases it sits on top of them instead of replacing them. Microsoft and Databricks are technology partners of Plainsight, the company behind D8A.
+D8A generates code that runs on these platforms. In most cases it sits on top of them instead of replacing them.
 
 The versus posts compare approach, ownership, lock-in, LLM choice, documentation and cost model:
 

@@ -96,7 +96,7 @@ Because specifications describe intent instead of dialect, the same spec can dri
 
 ## Sovereignty without picking a fight with your vendor
 
-A sovereign data stack does not mean leaving Microsoft Fabric, Databricks or Snowflake. Microsoft and Databricks are technology partners of Plainsight, and D8A runs on top of these platforms. The point is that the choice stays yours.
+A sovereign data stack does not mean leaving Microsoft Fabric, Databricks or Snowflake. D8A runs on top of these platforms. The point is that the choice stays yours.
 
 The comparison posts look at each platform in detail:
 

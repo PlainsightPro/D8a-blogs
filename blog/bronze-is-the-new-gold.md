@@ -32,7 +32,7 @@ In a bronze layer medallion architecture, bronze is where the context lives, and
 
 The medallion architecture splits a data platform into three layers. Bronze holds data as it arrives from source systems. Silver cleans, conforms and joins it. Gold models it for consumption: dimensions, facts and data products.
 
-In May 2025 the Plainsight blog mapped out [the smart path to AI readiness](https://www.plainsight.pro/blog/the-smart-path-to-ai-readiness). Documenting bronze was one of its steps: "Bronze data (logs, raw feeds, etc.) contains valuable signals but only if it's documented and partially cleaned." That roadmap put bronze after gold, because documenting raw sources by hand is slow. With specs generated from the sources themselves, it no longer has to wait. This post shows what bronze looks like when it is documented by default.
+Most AI-readiness roadmaps put documenting bronze late, after the gold layer, because documenting raw sources by hand is slow. Bronze data (logs, raw feeds, source tables) carries valuable signals, but only once it is documented. With specs generated from the sources themselves, that work no longer has to wait. This post shows what bronze looks like when it is documented by default.
 
 ## Why gold is only as good as bronze
 
